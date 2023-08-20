@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: #1abc9c;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav a.active-link {
+    border-bottom: 3px solid var(--green);
+    color: var(--green);
+}
+
+.link {
+    color: #000;
+}
+
+.link:hover {
+    color: var(--green);
+}
